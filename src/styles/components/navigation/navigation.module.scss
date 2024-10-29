@@ -1,4 +1,4 @@
-@use './styles/colours/pallet.module.scss' as pallet;
+@use "./styles/colours/pallet.module.scss" as pallet;
 
 .nav {
   flex-grow: 1;
@@ -8,8 +8,8 @@
   }
 
   ul {
-     padding: 0;
-     margin-left: 1rem;
+    padding: 0;
+    margin-left: 1rem;
     li {
       list-style-type: none;
       margin: 0;

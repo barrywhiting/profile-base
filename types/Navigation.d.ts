@@ -1,1 +1,1 @@
-declare module 'Navigation' {}
+declare module "Navigation" {}

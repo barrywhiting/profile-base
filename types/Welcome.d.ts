@@ -1,1 +1,1 @@
-declare module 'Welcome' {}
+declare module "Welcome" {}

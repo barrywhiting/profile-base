@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "ES6",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "typeRoots": [
+        "./types",
+        "./node_modules/@types"
+      ],
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "Node10",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react-jsx",
+      "outDir": "dist",
+      "baseUrl": ".",
+      "rootDir": "src",
+      "sourceMap": true,
+      "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    },
+    "include": [
+      "src/**/*",
+      "src/styles/**/*",
+      "declaration.d.ts",
+      "types"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist",
+      "coverage",
+      "webpack.*.js",
+      "*.config.js",
+      "*.test.ts*"
+    ],
+    "ts-node": {
+      "compilerOptions": {
+        "module":"ES6"
+      }
+    }
+  }

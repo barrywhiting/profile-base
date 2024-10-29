@@ -1,0 +1,9 @@
+@use '../../colours/pallet.module.scss' as pallet;
+
+body {
+    background-color: pallet.$darkBlue;
+}
+
+.root {
+    display: flex;
+}

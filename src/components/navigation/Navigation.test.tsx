@@ -3,6 +3,6 @@ import Navigation from './Navigation';
 
 test('renders learn react link', () => {
   render(<Navigation />);
-  const linkElement = screen.getByText(/learn react/i);
+  const linkElement = screen.getByText(/Home/i);
   expect(linkElement).toBeInTheDocument();
 });
